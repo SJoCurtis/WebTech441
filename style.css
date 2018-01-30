@@ -7,7 +7,7 @@
     font-family: "Monospace";
     height: 100%;
     display: inline-block;
-    border: 5px dotted dashed solid double yellowgreen;
+    border: 5px solid double yellowgreen;
 }
 .hero {
     /* the 'vh' unit asks the browser to */
