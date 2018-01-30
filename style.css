@@ -9,3 +9,34 @@
     display: inline-block;
     border: 5px dotted dashed solid double yellowgreenss;
 }
+.hero {
+    /* the 'vh' unit asks the browser to */
+    /* return the height of the viewport */
+    /* we can then use that to set the height of an element */
+    /* as a percentage of the viewport height (vh) */
+    height: 100vh;
+    min-height: 740px;
+    background-image: url("imgs/hero1.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .8);
+}
+
+.hero .title {
+    font-size: 22pt;
+    color: #fff;
+    float: right;
+    margin-top: 170px;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 2em;
+    text-align: center;
+    background-color: rgba(120, 120, 120, 0.7);
+}
+
+.title h1 {
+    font-family: 'Princess Sofia', cursive;
+    font-size: 2.5em;
+    letter-spacing: 0.2em;
+}
