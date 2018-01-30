@@ -4,10 +4,10 @@
     padding: 10px;
     max-width: 100%;
     background: rgba(255,192,203,.9);
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-family: "Monospace";
     height: 100%;
     display: inline-block;
-    border: 5px dotted dashed solid double yellowgreenss;
+    border: 5px dotted dashed solid double yellowgreen;
 }
 .hero {
     /* the 'vh' unit asks the browser to */
