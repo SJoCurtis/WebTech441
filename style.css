@@ -15,7 +15,7 @@
     /* we can then use that to set the height of an element */
     /* as a percentage of the viewport height (vh) */
     height: 100vh;
-    min-height: 740px;
+    min-height: 650px;
     background-image: url("https://68.media.tumblr.com/5160d76a676f823a595f93c1192d3177/tumblr_n47a0q0RhI1tz3c6ao1_r3_500.png");
     background-position: center;
     background-repeat: no-repeat;
