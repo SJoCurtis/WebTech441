@@ -23,7 +23,7 @@
 }
 
 .hero .title {
-    font-size: 35pt;
+    font-size: 40pt;
     color: #000000;
     float: center;
     margin-top: 170px;
@@ -31,7 +31,6 @@
     margin-right: 1em;
     padding: 2em;
     text-align: center;
-    background-color: rgba(0, 188, 188);
 }
 
 .title h1 {
