@@ -16,17 +16,16 @@
     /* as a percentage of the viewport height (vh) */
     height: 100vh;
     min-height: 740px;
-    background-image: url("imgs/hero1.jpg");
-    background-position: left;
+    background-image: url("https://68.media.tumblr.com/5160d76a676f823a595f93c1192d3177/tumblr_n47a0q0RhI1tz3c6ao1_r3_500.png");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, .8);
 }
 
 .hero .title {
     font-size: 22pt;
     color: #fff;
-    float: right;
+    float: center;
     margin-top: 170px;
     margin-left: 1em;
     margin-right: 1em;
