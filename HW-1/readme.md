@@ -1,0 +1,2 @@
+# Homework One
+This week was difficult for me. Mostly because my computer is broken so I sent it into Apple. I am using a friends computer as my development space currently. Plus time management is not my forte. But as such, I still managed to create an alright website. I didn't review quite as much as I should have, but it is functional. Once my computer is returned this whole process will become quite a bit easier.
