@@ -1,9 +1,9 @@
 .backstyle {
     float: center;
     margin: 15px;
-    padding: 10px;
+    padding: 1px;
     max-width: 100%;
-    background: DarkTurquoise;
+    background: DarkTurquoise ;
     font-family: "Monospace";
     height: 100%;
     display: inline-block;
