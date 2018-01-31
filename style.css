@@ -9,6 +9,14 @@
     display: inline-block;
     border: 5px solid yellowgreen;
 }
+.parallax {
+    background-image: url("https://media.giphy.com/media/7peShfEuobgEE/giphy.gif");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .hero {
     height: 100vh;
     min-height: 450px;
