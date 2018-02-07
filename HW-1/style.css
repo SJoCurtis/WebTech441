@@ -5,7 +5,7 @@
     max-width: 100%;
     background: DarkTurquoise;
     font-family: "Monospace";
-    max-height: 100%;
+    height: auto;
     display: inline-block;
     text-overflow:ellipsis;
     border: 5px solid yellowgreen;
