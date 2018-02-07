@@ -5,8 +5,9 @@
     max-width: 100%;
     background: DarkTurquoise;
     font-family: "Monospace";
-    max-height: 100%;
+    height: 100%;
     display: inline-block;
+    overflow:hidden
     border: 5px solid yellowgreen;
 }
 .hero {
