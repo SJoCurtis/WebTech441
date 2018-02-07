@@ -1,0 +1,2 @@
+#H1 Homework Two Intro to Javascripting
+> This week was exceedingly easy. It was just the start though. Ive done quite a bit of Javascript as it is with freecodecamp and both of the creative coding classes. But I will in no way say I'm an expert or that I think this will continue to be easy. Im excited and fearful for this class. Excited to challenge myself and afraid to struggle. So it goes. But overall this week and the Hello World! stuff was quite simple. Lets see where we end up I suppose. 
