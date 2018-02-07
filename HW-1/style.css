@@ -7,8 +7,8 @@
     font-family: "Monospace";
     max-height: 100%;
     display: inline-block;
-    vertical-align: bottom;
     border: 5px solid yellowgreen;
+      vertical-align: bottom;
 }
 .hero {
     height: 100vh;
