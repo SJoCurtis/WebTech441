@@ -1,0 +1,1 @@
+document.write("<h1><center>Hello World!</h1><hr><p>The Javascripting begins! I am excited and also fearful. I love Javascript sometimes and despise it at others. I know some days will be hard and others excting. But I'm ready. So here goes something.</p>");
