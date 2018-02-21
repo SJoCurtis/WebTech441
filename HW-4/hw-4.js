@@ -83,7 +83,7 @@ console.log(countJs("Javascript Just Joyful?!?!?!"));
 
 console.log(countChar("Kill Me", "K"));
 
-console.log(countChar("Pretty Please", "P"));
+console.log(countChar("Perfect Persistence", "P"));
 
 // Function Calls - DO NOT ALTER
 console.log( countChar("BBC", "B") );
@@ -101,7 +101,7 @@ console.log( countChar("michael", "M") );
 //
 // Finally, write a sum function ( 'sum()' ) that takes an array of numbers and returns the sum of these numbers.
 
-// Your code here.
+// Your code here (DONE*!*)
 function range (){
     var array = [];
     var lower = Math.min.apply(null, arguments);
@@ -138,13 +138,20 @@ console.log( sum(range(1, 10)) );
 // When defining the function, you may use a regular loop to do the actual looping.
 
 // Your code here.
-function loop(start, test, update, body) {
-  for (let value = start; test(value); value = update(value)) {
-    body(value);
-  }
-}
+var mood = function(original, replacement, source) {
+  return function(source) {
+    return source.replace(original, replacement);
+  };
+};
 
-loop(100, x => x > 50, x => x - 10, console.log);
+var confusing = mood(/I know exactly what I'm doing/ig, "Everything is confusing");
+var confuse = mood(/Nothing is hard/ig, "Everything is hard");
+
+console.log(confusing("I know exactly what I'm doing with Javascript."));
+
+console.log(confuse("Nothing is hard this week."));
+
+//I did this wrong probably and I'm sorry.
 
 // Function Calls - DO NOT ALTER
 loop(3, n => n > 0, n => n - 1, console.log);
