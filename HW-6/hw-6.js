@@ -27,14 +27,14 @@ To begin, you should select the body element from the DOM, then remove its exist
 
 */
 var myImage = new Image (882, 501);
-myImage.src = "./HW-6/Pics/rainbowbritelove.jpg"
+myImage.src = "./HW-6/Pics/rainbowbritelove.gif"
 
 let body = document.body;
 body.innerText = "";
 
 body.style.padding = "0 em";
 body.style.margin="0 em";
-body.style.background = "#030303 url('./HW-6/Pics/rainbowbackgrounddude.jpg') repeat right top";
+body.style.background = "#030303 url('./HW-6/Pics/rainbowbackgrounddude.jpeg') repeat right top";
 
 let el = document.createElement("div");
 let elChild = document.createElement("h1");
