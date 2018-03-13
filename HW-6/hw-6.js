@@ -43,17 +43,17 @@ let theChild3 = document.createElement('P');
 let theChild4= document.createElement('h3');
 let theChild5= document.createElement('p');
 let theChild6 = document.createElement('a');
-theChild.innerText = "💖 ☁ ☁ ☁ I LOVE RAINBOWS ☁ ☁ ☁ 💖 ";
-theChild2.innerText="Founded in 1841, St. Mary's established by the jesuit order was the first permanent settlement by European descendants in what would become the State of Montana (Wikipedia).";
-theChild3.innerText="Although this might be seen as the first foothold to an abhorrent conquest of native peoples, it is nevertheless a part of a shared history. ";
+theChild.innerText = "☁ ☁ ☁ I LOVE RAINBOWS ☁ ☁ ☁";
+theChild2.innerText="A rainbow is a bow or arc of prismatic colors appearing in the heavens opposite the sun and caused by the refraction and reflection of the sun's rays in drops of rain.";
+theChild3.innerText="Rainbow represent happiness and adventure and how it can be elusive. But how sometimes it requires storms to enjoy a rainbow. The rainbow and happiness require something first.";
 theChild4.innerText="Rainbow Positivity"
 theChild5.innerText="If life is blue, just select another color from the rainbow. - Unknown"
 theChild6.innerText="Learn About Rainbow Brite";
 theChild.setAttribute("style","padding:2em; margin:0; font-family:; font-weight:bold; text-align:center; color:#FF3232");
-theChild2.setAttribute("style","padding:0em; margin:0; font-style:italic; text-align:left; color:#fcffd7");
-theChild3.setAttribute("style","padding:1em; margin:0;  font-weight:;  text-align:left; color:#fcffd7");
+theChild2.setAttribute("style","padding:0em; margin:0; font-style:italic; text-align:left; color:#202020");
+theChild3.setAttribute("style","padding:1em; margin:0;  font-weight:;  text-align:left; color:#202020");
 theChild4.setAttribute("style","padding:1em; margin:0;  font-weight:bold;  text-align:center; color:#00FF00");
-theChild5.setAttribute("style","padding:0em; margin:0;  font-style:italic;  text-align:center; color:#53FBFF");
+theChild5.setAttribute("style","padding:0em; margin:0;  font-style:italic;  text-align:center; color:#202020");
 theChild6.setAttribute("style","padding:0em; margin:600px; color:#FF69B4");
 theChild6.setAttribute("href","https://www.huffingtonpost.com/kenyth-mogan/the-colorful-history-of-r_b_10345612.html");
 
