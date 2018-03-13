@@ -34,7 +34,7 @@ body.innerText = "";
 
 body.style.padding = "0 em";
 body.style.margin="0 em";
-body.style.background = "url('../HW-6/Pics/rainbowbackgrounddude.jpeg') repeat right top";
+body.style.backgroundImage = 'url(../HW-6/Pics/rainbowbackgrounddude.jpeg)';
 
 let el = document.createElement("div");
 let elChild = document.createElement("h1");
