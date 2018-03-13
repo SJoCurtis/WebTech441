@@ -63,9 +63,9 @@ theChild3.setAttribute("style","padding:1em; margin:0;  font-weight:bold; text-a
 theChild4.setAttribute("style","padding:1em; margin:0;  font-weight:bold; text-align:center; color:#00008b");
 theChild5.setAttribute("style","padding:0em; margin:0; font-weight:bold; font-style:italic; text-align:center; color:#202020");
 theChild6.setAttribute("style","padding:0em; margin:0; font-weight:bold; font-style:italic; text-align:center; color:#202020");
-theChild7.setAttribute("style","padding:0em; margin:520px; color:#FF69B4");
+theChild7.setAttribute("style","padding:0em; margin:500px; color:#FF69B4");
 theChild7.setAttribute("href","https://www.huffingtonpost.com/kenyth-mogan/the-colorful-history-of-r_b_10345612.html");
-theChild8.setAttribute("style","padding:0em; margin:520px; color:#885EAD");
+theChild8.setAttribute("style","padding:0em; margin:500px; color:#885EAD");
 theChild8.setAttribute("href","http://www.quotesoup.com/quotes/rainbow");
 //Image Styling
 myImage.setAttribute("style","padding:0em; margin:340px");
