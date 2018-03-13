@@ -36,36 +36,36 @@ body.style.padding = "0 em";
 body.style.margin="0 em";
 body.style.backgroundImage = 'url(http://blog.codegrape.com/wp-content/uploads/2017/09/revamp-website-2.gif)';
 
-let el = document.createElement("div");
-let elChild = document.createElement("h1");
-let elChild2 = document.createElement('p');
-let elChild3 = document.createElement('P');
-let elChild4= document.createElement('h3');
-let elChild5= document.createElement('p');
-let elChild6 = document.createElement('a');
-elChild.innerText = "💖 ☁ ☁ ☁ I LOVE RAINBOWS ☁ ☁ ☁ 💖 ";
-elChild2.innerText="Founded in 1841, St. Mary's established by the jesuit order was the first permanent settlement by European descendants in what would become the State of Montana (Wikipedia).";
-elChild3.innerText="Although this might be seen as the first foothold to an abhorrent conquest of native peoples, it is nevertheless a part of a shared history. ";
-elChild4.innerText="Words of Wisdom"
-elChild5.innerText="Those who cannot remember the past are condemned to repeat it- George Santayana"
-elChild6.innerText="Learn About Rainbow Brite";
-elChild.setAttribute("style","padding:2em; margin:0; font-family: 'Allan'; font-weight:bold; text-align:center; color:#FF3232");
-elChild2.setAttribute("style","padding:0em; margin:0; font-style:italic; text-align:center; color:#fcffd7");
-elChild3.setAttribute("style","padding:1em; margin:0;  font-weight:bold;  text-align:center; color:#fcffd7");
-elChild4.setAttribute("style","padding:1em; margin:0;  font-weight:bold;  text-align:center; color:#fcffd7");
-elChild5.setAttribute("style","padding:0em; margin:0;  font-style:italic;  text-align:center; color:#fcffd7");
-elChild6.setAttribute("style","padding:0em; margin:600px; color:#FF69B4");
-elChild6.setAttribute("href","https://www.huffingtonpost.com/kenyth-mogan/the-colorful-history-of-r_b_10345612.html");
+let the = document.createElement("div");
+let theChild = document.createElement("h1");
+let theChild2 = document.createElement('p');
+let theChild3 = document.createElement('P');
+let theChild4= document.createElement('h3');
+let theChild5= document.createElement('p');
+let theChild6 = document.createElement('a');
+theChild.innerText = "💖 ☁ ☁ ☁ I LOVE RAINBOWS ☁ ☁ ☁ 💖 ";
+theChild2.innerText="Founded in 1841, St. Mary's established by the jesuit order was the first permanent settlement by European descendants in what would become the State of Montana (Wikipedia).";
+theChild3.innerText="Although this might be seen as the first foothold to an abhorrent conquest of native peoples, it is nevertheless a part of a shared history. ";
+theChild4.innerText="Words of Wisdom"
+theChild5.innerText="Those who cannot remember the past are condemned to repeat it- George Santayana"
+theChild6.innerText="Learn About Rainbow Brite";
+theChild.setAttribute("style","padding:2em; margin:0; font-family: 'Allan'; font-weight:bold; text-align:center; color:#FF3232");
+theChild2.setAttribute("style","padding:0em; margin:0; font-style:italic; text-align:center; color:#fcffd7");
+theChild3.setAttribute("style","padding:1em; margin:0;  font-weight:bold;  text-align:center; color:#fcffd7");
+theChild4.setAttribute("style","padding:1em; margin:0;  font-weight:bold;  text-align:center; color:#fcffd7");
+theChild5.setAttribute("style","padding:0em; margin:0;  font-style:italic;  text-align:center; color:#fcffd7");
+theChild6.setAttribute("style","padding:0em; margin:600px; color:#FF69B4");
+theChild6.setAttribute("href","https://www.huffingtonpost.com/kenyth-mogan/the-colorful-history-of-r_b_10345612.html");
 
 myImage.setAttribute("style","padding:0em; margin:300px");
 
-el.appendChild(elChild);
-el.appendChild(myImage);
-el.appendChild(elChild6);
+the.appendChild(theChild);
+the.appendChild(theImage);
+the.appendChild(theChild6);
 
-el.appendChild(elChild2);
-el.appendChild(elChild3);
-el.appendChild(elChild4);
-el.appendChild(elChild5);
+the.appendChild(theChild2);
+the.appendChild(theChild3);
+the.appendChild(theChild4);
+the.appendChild(theChild5);
 
-body.appendChild(el);
+body.appendChild(the);
