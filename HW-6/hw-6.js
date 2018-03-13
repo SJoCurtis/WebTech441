@@ -31,7 +31,7 @@ var myImage = new Image (600, 500);
 var myImage1 = new Image (600,420);
 myImage.src = "../HW-6/Pics/rainbowbritelove.gif"
 myImage1.src ="../HW-6/Pics/rainbowlogo.jpg"
-//"Body" Set Up
+//Body Set Up
 let body = document.body;
 body.innerText = "";
 body.style.padding = "20px";
@@ -46,6 +46,7 @@ let theChild4 = document.createElement('h2');
 let theChild5 = document.createElement('p');
 let theChild6 = document.createElement('p');
 let theChild7 = document.createElement('a');
+let theChild8 = document.createElement('a');
 //Element Content
 theChild.innerText = "☁ ☁ ☁ ☁ I LOVE RAINBOWS ☁ ☁ ☁ ☁";
 theChild2.innerText="A rainbow is a bow or arc of prismatic colors appearing in the heavens opposite the sun and caused by the refraction and reflection of the sun's rays in drops of rain.";
@@ -54,6 +55,7 @@ theChild4.innerText="RAINBOW POSITIVITY"
 theChild5.innerText="If life is blue, just select another color from the rainbow. - Unknown"
 theChild6.innerText="The true harvest of my daily life is somewhat as intangible and indescribable as the tints of morning or evening. It is a little star dust caught, a segment of the rainbow which I have clutched. - Henry David Thoreau"
 theChild7.innerText="Learn About Rainbow Brite";
+theChild8.innerText="More Rainbow Positivity"
 //Styling
 theChild.setAttribute("style","padding:2em; margin:0; font-family:; font-weight:bold; text-align:center; color:#FF3232");
 theChild2.setAttribute("style","padding:0em; margin:0; font-weight:bold; text-align:center; color:#202020");
@@ -61,8 +63,10 @@ theChild3.setAttribute("style","padding:1em; margin:0;  font-weight:bold; text-a
 theChild4.setAttribute("style","padding:1em; margin:0;  font-weight:bold; text-align:center; color:#00008b");
 theChild5.setAttribute("style","padding:0em; margin:0; font-weight:bold; font-style:italic; text-align:center; color:#202020");
 theChild6.setAttribute("style","padding:0em; margin:0; font-weight:bold; font-style:italic; text-align:center; color:#202020");
-theChild7.setAttribute("style","padding:0em; margin:600px; color:#FF69B4");
+theChild7.setAttribute("style","padding:0em; margin:520px; color:#FF69B4");
 theChild7.setAttribute("href","https://www.huffingtonpost.com/kenyth-mogan/the-colorful-history-of-r_b_10345612.html");
+theChild8.setAttribute("style","padding:0em; margin:520px; color:#885EAD");
+theChild8.setAttribute("href","http://www.quotesoup.com/quotes/rainbow");
 //Image Styling
 myImage.setAttribute("style","padding:0em; margin:340px");
 myImage1.setAttribute("style","padding:0em; margin:340px");
@@ -76,6 +80,7 @@ the.appendChild(theChild5);
 the.appendChild(theChild6);
 the.appendChild(myImage1);
 the.appendChild(theChild7);
+the.appendChild(theChild8);
 
 body.appendChild(the);
 //The End
