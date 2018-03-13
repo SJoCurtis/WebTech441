@@ -50,8 +50,8 @@ theChild4.innerText="Rainbow Positivity"
 theChild5.innerText="If life is blue, just select another color from the rainbow. - Unknown"
 theChild6.innerText="Learn About Rainbow Brite";
 theChild.setAttribute("style","padding:2em; margin:0; font-family:; font-weight:bold; text-align:center; color:#FF3232");
-theChild2.setAttribute("style","padding:0em; margin:0; font-style:italic; text-align:center; color:#fcffd7");
-theChild3.setAttribute("style","padding:1em; margin:0;  font-weight:;  text-align:center; color:#fcffd7");
+theChild2.setAttribute("style","padding:0em; margin:0; font-style:italic; text-align:left; color:#fcffd7");
+theChild3.setAttribute("style","padding:1em; margin:0;  font-weight:;  text-align:left; color:#fcffd7");
 theChild4.setAttribute("style","padding:1em; margin:0;  font-weight:bold;  text-align:center; color:#00FF00");
 theChild5.setAttribute("style","padding:0em; margin:0;  font-style:italic;  text-align:center; color:#53FBFF");
 theChild6.setAttribute("style","padding:0em; margin:600px; color:#FF69B4");
