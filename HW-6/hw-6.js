@@ -34,7 +34,7 @@ body.innerText = "";
 
 body.style.padding = "0 em";
 body.style.margin="0 em";
-body.style.backgroundImage = 'url(../HW-6/Pics/rainbowbackgrounddude.jpeg)';
+body.style.backgroundImage = 'url(https://umad.com/img/2015/11/pastel-colors-wallpaper-4185-4404-hd-wallpapers.jpg)';
 
 let el = document.createElement("div");
 let elChild = document.createElement("h1");
