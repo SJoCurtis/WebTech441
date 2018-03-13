@@ -27,7 +27,9 @@ To begin, you should select the body element from the DOM, then remove its exist
 
 */
 var myImage = new Image (900, 500);
+var myImage1 = new Image (500,300);
 myImage.src = "../HW-6/Pics/rainbowbritelove.gif"
+myImage1.src ="../HW-6/Pics/wallrainbow.jpeg"
 
 let body = document.body;
 body.innerText = "";
@@ -46,7 +48,7 @@ let theChild6 = document.createElement('a');
 theChild.innerText = "☁ ☁ ☁ I LOVE RAINBOWS ☁ ☁ ☁";
 theChild2.innerText="A rainbow is a bow or arc of prismatic colors appearing in the heavens opposite the sun and caused by the refraction and reflection of the sun's rays in drops of rain.";
 theChild3.innerText="Rainbow represent happiness and joy. It can be elusive. But sometimes it requires a storm to enjoy a rainbow. The rainbow and happiness require something first.";
-theChild4.innerText="Rainbow Positivity"
+theChild4.innerText="RAINBOW POSITIVITY"
 theChild5.innerText="If life is blue, just select another color from the rainbow. - Unknown"
 theChild6.innerText="Learn About Rainbow Brite";
 theChild.setAttribute("style","padding:2em; margin:0; font-family:; font-weight:bold; text-align:center; color:#FF3232");
@@ -58,6 +60,7 @@ theChild6.setAttribute("style","padding:0em; margin:600px; color:#FF69B4");
 theChild6.setAttribute("href","https://www.huffingtonpost.com/kenyth-mogan/the-colorful-history-of-r_b_10345612.html");
 
 myImage.setAttribute("style","padding:0em; margin:300px");
+myImage1.setAttribute("style","padding:0em; margin:300px");
 
 the.appendChild(theChild);
 the.appendChild(myImage);
@@ -67,5 +70,6 @@ the.appendChild(theChild2);
 the.appendChild(theChild3);
 the.appendChild(theChild4);
 the.appendChild(theChild5);
+the.appendChild(myImage1);
 
 body.appendChild(the);
