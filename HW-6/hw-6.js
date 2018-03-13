@@ -57,7 +57,7 @@ elChild5.setAttribute("style","padding:0em; margin:0;  font-style:italic;  text-
 elChild6.setAttribute("style","padding:0em; margin:600px");
 elChild6.setAttribute("href","http://www.saintmarysmission.org/");
 
-myImage.setAttribute("style","padding:0em; margin:100px");
+myImage.setAttribute("style","padding:0em; margin:200px");
 
 el.appendChild(elChild);
 el.appendChild(elChild6);
