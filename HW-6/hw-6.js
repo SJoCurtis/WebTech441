@@ -26,7 +26,7 @@ Instead, you should use the appropriate methods, as mentioned in the readings.
 To begin, you should select the body element from the DOM, then remove its existing child nodes. You may then begin to create your web page.
 
 */
-var myImage = new Image (900, 501);
+var myImage = new Image (900, 600);
 myImage.src = "../HW-6/Pics/rainbowbritelove.gif"
 
 let body = document.body;
@@ -34,7 +34,7 @@ body.innerText = "";
 
 body.style.padding = "0 em";
 body.style.margin="0 em";
-body.style.background = "#030303 url('../HW-6/Pics/rainbowbackgrounddude.jpeg') repeat right top";
+body.style.background = "url('../HW-6/Pics/rainbowbackgrounddude.jpeg') repeat right top";
 
 let el = document.createElement("div");
 let elChild = document.createElement("h1");
