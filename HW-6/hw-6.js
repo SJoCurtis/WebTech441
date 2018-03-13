@@ -47,7 +47,7 @@ theChild.innerText = "💖 ☁ ☁ ☁ I LOVE RAINBOWS ☁ ☁ ☁ 💖 ";
 theChild2.innerText="Founded in 1841, St. Mary's established by the jesuit order was the first permanent settlement by European descendants in what would become the State of Montana (Wikipedia).";
 theChild3.innerText="Although this might be seen as the first foothold to an abhorrent conquest of native peoples, it is nevertheless a part of a shared history. ";
 theChild4.innerText="Words of Wisdom"
-theChild5.innerText="Those who cannot remember the past are condemned to repeat it- George Santayana"
+theChild5.innerText="If life is blue, just select another color from the rainbow. - Unknown"
 theChild6.innerText="Learn About Rainbow Brite";
 theChild.setAttribute("style","padding:2em; margin:0; font-family: 'Allan'; font-weight:bold; text-align:center; color:#FF3232");
 theChild2.setAttribute("style","padding:0em; margin:0; font-style:italic; text-align:center; color:#fcffd7");
