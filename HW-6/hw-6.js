@@ -42,22 +42,25 @@ let the = document.createElement("div");
 let theChild = document.createElement("h1");
 let theChild2 = document.createElement('p');
 let theChild3 = document.createElement('P');
-let theChild4= document.createElement('h2');
-let theChild5= document.createElement('p');
-let theChild6 = document.createElement('a');
+let theChild4 = document.createElement('h2');
+let theChild5 = document.createElement('p');
+let theChild6 = document.createElement('p');
+let theChild7 = document.createElement('a');
 theChild.innerText = "☁ ☁ ☁ ☁ I LOVE RAINBOWS ☁ ☁ ☁ ☁";
 theChild2.innerText="A rainbow is a bow or arc of prismatic colors appearing in the heavens opposite the sun and caused by the refraction and reflection of the sun's rays in drops of rain.";
 theChild3.innerText="Rainbow represent happiness and joy. It can be elusive. But sometimes it requires a storm to enjoy a rainbow. The rainbow and happiness require something first.";
 theChild4.innerText="RAINBOW POSITIVITY"
 theChild5.innerText="If life is blue, just select another color from the rainbow. - Unknown"
-theChild6.innerText="Learn About Rainbow Brite";
+thechild6.innerText="The true harvest of my daily life is somewhat as intangible and indescribable as the tints of morning or evening. It is a little star dust caught, a segment of the rainbow which I have clutched. - Henry David Thoreau"
+theChild7.innerText="Learn About Rainbow Brite";
 theChild.setAttribute("style","padding:2em; margin:0; font-family:; font-weight:bold; text-align:center; color:#FF3232");
 theChild2.setAttribute("style","padding:0em; margin:0; font-style:bold; text-align:left; color:#202020");
 theChild3.setAttribute("style","padding:1em; margin:0;  font-weight:bold; text-align:left; color:#202020");
 theChild4.setAttribute("style","padding:1em; margin:0;  font-weight:bold; text-align:center; color:#00008b");
 theChild5.setAttribute("style","padding:0em; margin:0;  font-style:italic; text-align:center; color:#202020");
-theChild6.setAttribute("style","padding:0em; margin:600px; color:#FF69B4");
-theChild6.setAttribute("href","https://www.huffingtonpost.com/kenyth-mogan/the-colorful-history-of-r_b_10345612.html");
+theChild6.setAttribute("style","padding:0em; margin:0;  font-style:italic; text-align:center; color:#202020");
+theChild7.setAttribute("style","padding:0em; margin:600px; color:#FF69B4");
+theChild7.setAttribute("href","https://www.huffingtonpost.com/kenyth-mogan/the-colorful-history-of-r_b_10345612.html");
 
 myImage.setAttribute("style","padding:0em; margin:340px");
 myImage1.setAttribute("style","padding:0em; margin:340px");
@@ -69,7 +72,8 @@ the.appendChild(theChild2);
 the.appendChild(theChild3);
 the.appendChild(theChild4);
 the.appendChild(theChild5);
-the.appendChild(myImage1);
 the.appendChild(theChild6);
+the.appendChild(myImage1);
+the.appendChild(theChild7);
 
 body.appendChild(the);
