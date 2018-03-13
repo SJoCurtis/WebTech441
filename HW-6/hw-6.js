@@ -48,14 +48,14 @@ elChild2.innerText="Founded in 1841, St. Mary's established by the jesuit order 
 elChild3.innerText="Although this might be seen as the first foothold to an abhorrent conquest of native peoples, it is nevertheless a part of a shared history. ";
 elChild4.innerText="Words of Wisdom"
 elChild5.innerText="Those who cannot remember the past are condemned to repeat it- George Santayana"
-elChild6.innerText="Click Here";
+elChild6.innerText="Learn About Rainbow Brite";
 elChild.setAttribute("style","padding:2em; margin:0; font-weight:bold; text-align:center; color:#FF3232");
 elChild2.setAttribute("style","padding:0em; margin:0; font-style:italic; text-align:center; color:#fcffd7");
 elChild3.setAttribute("style","padding:1em; margin:0;  font-weight:bold;  text-align:center; color:#fcffd7");
 elChild4.setAttribute("style","padding:1em; margin:0;  font-weight:bold;  text-align:center; color:#fcffd7");
 elChild5.setAttribute("style","padding:0em; margin:0;  font-style:italic;  text-align:center; color:#fcffd7");
 elChild6.setAttribute("style","padding:0em; margin:600px");
-elChild6.setAttribute("href","http://www.saintmarysmission.org/");
+elChild6.setAttribute("href","https://www.huffingtonpost.com/kenyth-mogan/the-colorful-history-of-r_b_10345612.html");
 
 myImage.setAttribute("style","padding:0em; margin:300px");
 
