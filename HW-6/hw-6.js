@@ -60,8 +60,8 @@ elChild6.setAttribute("href","https://www.huffingtonpost.com/kenyth-mogan/the-co
 myImage.setAttribute("style","padding:0em; margin:300px");
 
 el.appendChild(elChild);
-el.appendChild(elChild6);
 el.appendChild(myImage);
+el.appendChild(elChild6);
 
 el.appendChild(elChild2);
 el.appendChild(elChild3);
