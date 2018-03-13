@@ -34,7 +34,7 @@ body.innerText = "";
 
 body.style.padding = "0 em";
 body.style.margin="0 em";
-body.style.backgroundImage = 'url(https://umad.com/img/2015/11/pastel-colors-wallpaper-4185-4404-hd-wallpapers.jpg)';
+body.style.backgroundImage = 'url(https://68.media.tumblr.com/940af5ea546fcaa60ad860a6022c4895/tumblr_o85lyt5EyO1v1qrj6o2_500.gif)';
 
 let el = document.createElement("div");
 let elChild = document.createElement("h1");
