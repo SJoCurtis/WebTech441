@@ -51,7 +51,7 @@ theChild2.innerText="A rainbow is a bow or arc of prismatic colors appearing in 
 theChild3.innerText="Rainbow represent happiness and joy. It can be elusive. But sometimes it requires a storm to enjoy a rainbow. The rainbow and happiness require something first.";
 theChild4.innerText="RAINBOW POSITIVITY"
 theChild5.innerText="If life is blue, just select another color from the rainbow. - Unknown"
-thechild6.innerText="The true harvest of my daily life is somewhat as intangible and indescribable as the tints of morning or evening. It is a little star dust caught, a segment of the rainbow which I have clutched. - Henry David Thoreau"
+theChild6.innerText="The true harvest of my daily life is somewhat as intangible and indescribable as the tints of morning or evening. It is a little star dust caught, a segment of the rainbow which I have clutched. - Henry David Thoreau"
 theChild7.innerText="Learn About Rainbow Brite";
 theChild.setAttribute("style","padding:2em; margin:0; font-family:; font-weight:bold; text-align:center; color:#FF3232");
 theChild2.setAttribute("style","padding:0em; margin:0; font-style:bold; text-align:left; color:#202020");
