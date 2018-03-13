@@ -57,8 +57,8 @@ theChild.setAttribute("style","padding:2em; margin:0; font-family:; font-weight:
 theChild2.setAttribute("style","padding:0em; margin:0; font-weight:bold; text-align:center; color:#202020");
 theChild3.setAttribute("style","padding:1em; margin:0;  font-weight:bold; text-align:center; color:#202020");
 theChild4.setAttribute("style","padding:1em; margin:0;  font-weight:bold; text-align:center; color:#00008b");
-theChild5.setAttribute("style","padding:0em; margin:0;  font-style:italic; text-align:center; color:#202020");
-theChild6.setAttribute("style","padding:0em; margin:0;  font-style:italic; text-align:center; color:#202020");
+theChild5.setAttribute("style","padding:0em; margin:0; font-weight:bold; font-style:italic; text-align:center; color:#202020");
+theChild6.setAttribute("style","padding:0em; margin:0; font-weight:bold; font-style:italic; text-align:center; color:#202020");
 theChild7.setAttribute("style","padding:0em; margin:600px; color:#FF69B4");
 theChild7.setAttribute("href","https://www.huffingtonpost.com/kenyth-mogan/the-colorful-history-of-r_b_10345612.html");
 
