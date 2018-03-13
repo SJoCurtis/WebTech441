@@ -54,7 +54,7 @@ elChild2.setAttribute("style","padding:0em; margin:0; font-style:italic; text-al
 elChild3.setAttribute("style","padding:1em; margin:0;  font-weight:bold;  text-align:center; color:#fcffd7");
 elChild4.setAttribute("style","padding:1em; margin:0;  font-weight:bold;  text-align:center; color:#fcffd7");
 elChild5.setAttribute("style","padding:0em; margin:0;  font-style:italic;  text-align:center; color:#fcffd7");
-elChild6.setAttribute("style","padding:0em; margin:600px");
+elChild6.setAttribute("style","padding:0em; margin:600px; color:#FF69B4");
 elChild6.setAttribute("href","https://www.huffingtonpost.com/kenyth-mogan/the-colorful-history-of-r_b_10345612.html");
 
 myImage.setAttribute("style","padding:0em; margin:300px");
