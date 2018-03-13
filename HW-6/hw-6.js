@@ -45,7 +45,7 @@ let theChild3 = document.createElement('P');
 let theChild4= document.createElement('h2');
 let theChild5= document.createElement('p');
 let theChild6 = document.createElement('a');
-theChild.innerText = "☁ ☁ ☁ I LOVE RAINBOWS ☁ ☁ ☁";
+theChild.innerText = "☁ ☁ ☁ ☁ I LOVE RAINBOWS ☁ ☁ ☁ ☁";
 theChild2.innerText="A rainbow is a bow or arc of prismatic colors appearing in the heavens opposite the sun and caused by the refraction and reflection of the sun's rays in drops of rain.";
 theChild3.innerText="Rainbow represent happiness and joy. It can be elusive. But sometimes it requires a storm to enjoy a rainbow. The rainbow and happiness require something first.";
 theChild4.innerText="RAINBOW POSITIVITY"
@@ -60,7 +60,7 @@ theChild6.setAttribute("style","padding:0em; margin:600px; color:#FF69B4");
 theChild6.setAttribute("href","https://www.huffingtonpost.com/kenyth-mogan/the-colorful-history-of-r_b_10345612.html");
 
 myImage.setAttribute("style","padding:0em; margin:400px");
-myImage1.setAttribute("style","padding:0em; margin:300px");
+myImage1.setAttribute("style","padding:0em; margin:400px");
 
 the.appendChild(theChild);
 the.appendChild(myImage);
