@@ -26,15 +26,15 @@ Instead, you should use the appropriate methods, as mentioned in the readings.
 To begin, you should select the body element from the DOM, then remove its existing child nodes. You may then begin to create your web page.
 
 */
-var myImage = new Image (882, 501);
-myImage.src = "./HW-6/Pics/rainbowbritelove.gif"
+var myImage = new Image (900, 501);
+myImage.src = "../HW-6/Pics/rainbowbritelove.gif"
 
 let body = document.body;
 body.innerText = "";
 
 body.style.padding = "0 em";
 body.style.margin="0 em";
-body.style.background = "#030303 url('./HW-6/Pics/rainbowbackgrounddude.jpeg') repeat right top";
+body.style.background = "#030303 url('../HW-6/Pics/rainbowbackgrounddude.jpeg') repeat right top";
 
 let el = document.createElement("div");
 let elChild = document.createElement("h1");
@@ -43,7 +43,7 @@ let elChild3 = document.createElement('P');
 let elChild4= document.createElement('h3');
 let elChild5= document.createElement('p');
 let elChild6 = document.createElement('a');
-elChild.innerText = "St. Mary's Mission";
+elChild.innerText = "♡ I Love Rainbows ♡";
 elChild2.innerText="Founded in 1841, St. Mary's established by the jesuit order was the first permanent settlement by European descendants in what would become the State of Montana (Wikipedia).";
 elChild3.innerText="Although this might be seen as the first foothold to an abhorrent conquest of native peoples, it is nevertheless a part of a shared history. ";
 elChild4.innerText="Words of Wisdom"
