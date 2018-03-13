@@ -34,7 +34,7 @@ body.innerText = "";
 
 body.style.padding = "0 em";
 body.style.margin="0 em";
-body.style.backgroundImage = 'url(https://68.media.tumblr.com/940af5ea546fcaa60ad860a6022c4895/tumblr_o85lyt5EyO1v1qrj6o2_500.gif)';
+body.style.backgroundImage = 'url(http://blog.codegrape.com/wp-content/uploads/2017/09/revamp-website-2.gif)';
 
 let el = document.createElement("div");
 let elChild = document.createElement("h1");
