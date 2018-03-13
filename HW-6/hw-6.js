@@ -60,7 +60,7 @@ theChild6.setAttribute("href","https://www.huffingtonpost.com/kenyth-mogan/the-c
 myImage.setAttribute("style","padding:0em; margin:300px");
 
 the.appendChild(theChild);
-the.appendChild(theImage);
+the.appendChild(myImage);
 the.appendChild(theChild6);
 
 the.appendChild(theChild2);
