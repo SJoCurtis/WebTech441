@@ -27,7 +27,7 @@ To begin, you should select the body element from the DOM, then remove its exist
 
 */
 var myImage = new Image (600, 500);
-var myImage1 = new Image (600,400);
+var myImage1 = new Image (600,420);
 myImage.src = "../HW-6/Pics/rainbowbritelove.gif"
 myImage1.src ="../HW-6/Pics/rainbowlogo.jpg"
 
