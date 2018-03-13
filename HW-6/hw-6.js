@@ -26,7 +26,7 @@ Instead, you should use the appropriate methods, as mentioned in the readings.
 To begin, you should select the body element from the DOM, then remove its existing child nodes. You may then begin to create your web page.
 
 */
-var myImage = new Image (900, 900);
+var myImage = new Image (900, 500);
 myImage.src = "../HW-6/Pics/rainbowbritelove.gif"
 
 let body = document.body;
