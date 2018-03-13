@@ -59,7 +59,7 @@ theChild5.setAttribute("style","padding:0em; margin:0;  font-style:italic; text-
 theChild6.setAttribute("style","padding:0em; margin:600px; color:#FF69B4");
 theChild6.setAttribute("href","https://www.huffingtonpost.com/kenyth-mogan/the-colorful-history-of-r_b_10345612.html");
 
-myImage.setAttribute("style","padding:0em; margin:300px");
+myImage.setAttribute("style","padding:0em; margin:100px");
 myImage1.setAttribute("style","padding:0em; margin:300px");
 
 the.appendChild(theChild);
