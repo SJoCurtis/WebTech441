@@ -54,8 +54,8 @@ theChild5.innerText="If life is blue, just select another color from the rainbow
 theChild6.innerText="The true harvest of my daily life is somewhat as intangible and indescribable as the tints of morning or evening. It is a little star dust caught, a segment of the rainbow which I have clutched. - Henry David Thoreau"
 theChild7.innerText="Learn About Rainbow Brite";
 theChild.setAttribute("style","padding:2em; margin:0; font-family:; font-weight:bold; text-align:center; color:#FF3232");
-theChild2.setAttribute("style","padding:0em; margin:0; font-style:bold; text-align:left; color:#202020");
-theChild3.setAttribute("style","padding:1em; margin:0;  font-weight:; text-align:left; color:#202020");
+theChild2.setAttribute("style","padding:0em; margin:0; font-weight:bold; text-align:center; color:#202020");
+theChild3.setAttribute("style","padding:1em; margin:0;  font-weight:bold; text-align:center; color:#202020");
 theChild4.setAttribute("style","padding:1em; margin:0;  font-weight:bold; text-align:center; color:#00008b");
 theChild5.setAttribute("style","padding:0em; margin:0;  font-style:italic; text-align:center; color:#202020");
 theChild6.setAttribute("style","padding:0em; margin:0;  font-style:italic; text-align:center; color:#202020");
