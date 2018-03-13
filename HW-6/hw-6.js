@@ -68,8 +68,8 @@ theChild7.setAttribute("href","https://www.huffingtonpost.com/kenyth-mogan/the-c
 theChild8.setAttribute("style","padding:0em; margin:530px; color:#885EAD");
 theChild8.setAttribute("href","http://www.quotesoup.com/quotes/rainbow");
 //Image Styling
-myImage.setAttribute("style","padding:200px; margin:340px");
-myImage1.setAttribute("style","padding:0em; margin:340px");
+myImage.setAttribute("style","padding:20px; margin:340px");
+myImage1.setAttribute("style","padding:20px; margin:340px");
 //Positions
 the.appendChild(theChild);
 the.appendChild(myImage);
