@@ -35,7 +35,7 @@ let body = document.body;
 body.innerText = "";
 
 body.style.padding = "0 em";
-body.style.margin="0 em";
+body.style.margin="20px";
 body.style.backgroundImage = 'url(http://blog.codegrape.com/wp-content/uploads/2017/09/revamp-website-2.gif)';
 
 let the = document.createElement("div");
