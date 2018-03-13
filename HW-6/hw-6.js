@@ -49,7 +49,7 @@ elChild3.innerText="Although this might be seen as the first foothold to an abho
 elChild4.innerText="Words of Wisdom"
 elChild5.innerText="Those who cannot remember the past are condemned to repeat it- George Santayana"
 elChild6.innerText="Learn About Rainbow Brite";
-elChild.setAttribute("style","padding:2em; margin:0; font-weight:bold; text-align:center; color:#FF3232");
+elChild.setAttribute("style","padding:2em; margin:0; font-family: 'Allan'; font-weight:bold; text-align:center; color:#FF3232");
 elChild2.setAttribute("style","padding:0em; margin:0; font-style:italic; text-align:center; color:#fcffd7");
 elChild3.setAttribute("style","padding:1em; margin:0;  font-weight:bold;  text-align:center; color:#fcffd7");
 elChild4.setAttribute("style","padding:1em; margin:0;  font-weight:bold;  text-align:center; color:#fcffd7");
