@@ -78,9 +78,9 @@ the.appendChild(theChild3);
 the.appendChild(theChild4);
 the.appendChild(theChild5);
 the.appendChild(theChild6);
+the.appendChild(theChild8);
 the.appendChild(myImage1);
 the.appendChild(theChild7);
-the.appendChild(theChild8);
 
 body.appendChild(the);
 //The End
