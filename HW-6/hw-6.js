@@ -64,12 +64,12 @@ myImage1.setAttribute("style","padding:0em; margin:400px");
 
 the.appendChild(theChild);
 the.appendChild(myImage);
-the.appendChild(theChild6);
 
 the.appendChild(theChild2);
 the.appendChild(theChild3);
 the.appendChild(theChild4);
 the.appendChild(theChild5);
 the.appendChild(myImage1);
+the.appendChild(theChild6);
 
 body.appendChild(the);
