@@ -5,4 +5,3 @@ if(myAge>=14){
 else{
   alert("Play With Caution");
 }
-var name = prompt("What's Your Name?");
