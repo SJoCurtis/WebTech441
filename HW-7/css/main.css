@@ -16,13 +16,6 @@ body{
     height:100%;
     text-align:center;
 }
-.v-center{
-    position:relative;
-    display:inline-block;
-    width:86%;
-    text-align:left;
-    vertical-align:middle
-}
 .main-content{
 
 }
