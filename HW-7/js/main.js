@@ -1,3 +1,2 @@
-confirm("Are You Ready");
+confirm("Would You Like To Continue");
 var age = prompt("What's Your Name?");
-console.log("What Will You Choose");
