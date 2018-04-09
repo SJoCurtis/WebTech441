@@ -1,3 +1,4 @@
+// This is going to ask the player their age, like lots of online games and give a notice of approval or caution depnding on the age.
 var myAge = prompt("What is your age?");
 if(myAge>=14){
   confirm("Play On");
