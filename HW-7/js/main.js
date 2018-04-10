@@ -1,5 +1,14 @@
 // This is going to ask the player their age, like lots of online games and give a notice of approval or caution, depnding on the age.
-var myAge = prompt("What is your age?");
+function myFunction() {
+    setTimeout(function(){ promt("What is your age?"); }, 3000);
+    if(myAge>=14){
+      confirm("Play On");
+    }
+    else{
+      alert("Play With Caution");
+    }
+}
+
 if(myAge>=14){
   confirm("Play On");
 }
