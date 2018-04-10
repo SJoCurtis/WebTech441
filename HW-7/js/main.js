@@ -50,9 +50,9 @@ var scenario = {
     text: "You fell asleep again? Maybe? Someting feels different this time. What do you want your name to be?\n",
   },
   two: {
-    image: "http://68.media.tumblr.com/aeb33ad960d3fdbce1dca3265970272b/tumblr_ohc57koLSp1tgfjkso3_500.gif", //underwater 
-    text: "Your dog yanks at the leash. You hear dogs barking and see an old abandoned house. Strangely, the door is wide open. What do you want to do?",
-    buttons: [["Turn and run", "advanceTo(scenario.three)"],["Enter The House", "advanceTo(scenario.four)"]]
+    image: "http://68.media.tumblr.com/aeb33ad960d3fdbce1dca3265970272b/tumblr_ohc57koLSp1tgfjkso3_500.gif", //underwater
+    text: "Slowly the blackness of your vision reveals that you are actually underwater, it feel so real, but how? What do you want to do?",
+    buttons: [["Try to Force Yourself Awake", "advanceTo(scenario.three)"],["Swim Forward Into the Dark", "advanceTo(scenario.four)"]]
   },
   three: {
     image: "https://s4.postimg.org/t1g20apst/261819008_d4316c1bdf_o.jpg",
