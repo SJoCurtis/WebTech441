@@ -57,12 +57,12 @@ var scenario = {
   three: {
     image: "https://i.ytimg.com/vi/bru4OrEJwFk/maxresdefault.jpg",
     text: "You feel yourself being dragged down, when you look to see what it is, your realize it is several jelly fish pulling you. Breathing is becoming more difficult.",
-    buttons: [["continue", "advanceTo(scenario.seven)"]]
+    buttons: [["Continue on Trying to Wake Yourself", "advanceTo(scenario.seven)"]]
   },
   four: {
-    image: "https://s6.postimg.org/kz5m1cnkh/2919478782_c343d14be6_b.jpg",
-    text: "Your dog has run, barking loudly, into the basement. You wonder what's down there. The door jammed when you slammed it behind you. You are going to need something to pry it back open",
-    buttons: [["Follow your Dog Downstairs", "advanceTo(scenario.five)"],["Search the Kitchen for a knife", "advanceTo(scenario.five)"]]
+    image: "https://www.hardcoregamer.com/wp-content/uploads/2015/08/Soma01.jpg",
+    text: "You swim far into the dark, constantly suprised by how easy it is to breath underwater. This must be a dream...its so strage. You keep swiming into the dark not knowing what else to do and to afraid to do anything but keep moving forward, when suddenly you see lights in front of you. Upon close insepction it seams to be some sort of underwater ship.",
+    buttons: [["Try to Get the Ships Attention", "advanceTo(scenario.seven)"],["Stay Hidden in the Dark and Let it Pass On", "advanceTo(scenario.five)"]]
   },
   five: {
     image: "https://s6.postimg.org/kz5m1cnkh/2919478782_c343d14be6_b.jpg",
