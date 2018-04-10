@@ -28,7 +28,7 @@ var changeText = function(words) {
 var changeImage = function(img) {
   images.style.backgroundImage = "url(" + img + ")";
 };
-//The is the function for the buttons 
+//The is the function for the buttons
 var changeButtons = function(buttonList) {
   buttonBox.innerHTML = "";
   for (var i = 0; i < buttonList.length; i++) {
@@ -65,7 +65,7 @@ var scenario = {
     buttons: [["Try to Get the Ships Attention", "advanceTo(scenario.seven)"],["Stay Hidden in the Dark and Let it Pass On", "advanceTo(scenario.five)"]]
   },
   five: {
-    image: "https://media.giphy.com/media/sQiwrbxujezny/giphy.gif",
+    image: "http://78.media.tumblr.com/tumblr_mcdbk7fZA01qbnvdao1_500.gif",
     text: "After you have drifted past the ship, you move ever forward into the dark oblivion you have become acustomed to now. Wondering about the meaning of it all. ",
     buttons: [["Eventually Try to Wake Up", "advanceTo(scenario.seven)"],["Swim Forever Into the Abyss", "advanceTo(scenario.six)"]]
   },
