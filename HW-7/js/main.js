@@ -1,6 +1,6 @@
 // This is just allows the player to be introduced
 function myFunction() {
-    setTimeout(function(){ alert("Welcome to The Game"); }, 3000);
+    setTimeout(function(){ alert("Welcome to The Game"); }, 1000);
 }
 // This refrences and retrieves the correct ID elements
 var images = document.getElementById("images");
