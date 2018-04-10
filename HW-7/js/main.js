@@ -55,9 +55,9 @@ var scenario = {
     buttons: [["Try to Force Yourself Awake", "advanceTo(scenario.three)"],["Swim Forward Into the Dark", "advanceTo(scenario.four)"]]
   },
   three: {
-    image: "https://s4.postimg.org/t1g20apst/261819008_d4316c1bdf_o.jpg",
-    text: "A wild gang of rabid dogs are gaining on you. Against your better judgement you enter the creepy house for saftey. Your dog is whincing and may be injured.",
-    buttons: [["continue", "advanceTo(scenario.four)"]]
+    image: "https://i.ytimg.com/vi/bru4OrEJwFk/maxresdefault.jpg",
+    text: "You feel yourself being dragged down, when you look to see what it is, your realize it is several jelly fish pulling you. Breathing is becoming more difficult.",
+    buttons: [["continue", "advanceTo(scenario.seven)"]]
   },
   four: {
     image: "https://s6.postimg.org/kz5m1cnkh/2919478782_c343d14be6_b.jpg",
@@ -75,9 +75,8 @@ var scenario = {
     buttons: [["Follow your Dog Downstairs", "advanceTo(scenario.five)"],["Search the Kitchen for a knife", "advanceTo(scenario.five)"]]
   },
   seven: {
-    image: "",
-    text: "",
-    buttons: [["Follow your Dog Downstairs", "advanceTo(scenario.five)"],["Search the Kitchen for a knife", "advanceTo(scenario.five)"]]
+    image: "http://4.bp.blogspot.com/-BFbRaAvtIJA/Th3cqPVwftI/AAAAAAAAITs/NvrtSx-yPHE/s1600/Pirate+skull+and+crossbones+stencil-1.jpg",
+    text: "You Die.",
   }
 
 };
