@@ -1,4 +1,4 @@
-// This is going to ask the player their age, like lots of online games and give a notice of approval or caution depnding on the age.
+// This is going to ask the player their age, like lots of online games and give a notice of approval or caution, depnding on the age.
 var myAge = prompt("What is your age?");
 if(myAge>=14){
   confirm("Play On");
@@ -6,15 +6,16 @@ if(myAge>=14){
 else{
   alert("Play With Caution");
 }
+// This refrences and retrieves the correct ID elements
 var images = document.getElementById("images");
 var text = document.getElementById("text");
 var buttonBox = document.getElementById('buttonBox');
 var input = document.getElementById('input');
-var yerdog;
+var lalaland;
 
 input.onkeypress = function(event) {
   if (event.key == "Enter" || event.keyCode == 13) {
-    yerdog =  input.value;
+    lalaland =  input.value;
     input.parentNode.removeChild(input)
     advanceTo(scenario.two)
   }
@@ -22,7 +23,7 @@ input.onkeypress = function(event) {
 
 
 var changeText = function(words) {
-  text.innerHTML = words.replace("Your dog", yerdog);
+  text.innerHTML = words.replace("Your dog", lalaland);
 };
 
 var changeImage = function(img) {
