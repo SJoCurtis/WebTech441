@@ -20,29 +20,29 @@ input.onkeypress = function(event) {
     advanceTo(scenario.two)
   }
 };
-
+//Refencing the html file to replace that text with what is entered
 var changeText = function(words) {
   text.innerHTML = words.replace("Your name", lalaland);
 };
-
+//Function that allows the images
 var changeImage = function(img) {
   images.style.backgroundImage = "url(" + img + ")";
 };
-
+//The is the function for the buttons 
 var changeButtons = function(buttonList) {
   buttonBox.innerHTML = "";
   for (var i = 0; i < buttonList.length; i++) {
     buttonBox.innerHTML += "<button onClick="+buttonList[i][1]+">" + buttonList[i][0] + "</button>";
   }
 };
-
+// Allowing things to change
 var advanceTo = function(s) {
   changeImage(s.image)
   changeText(s.text)
   changeButtons(s.buttons)
 };
 
-
+// The scenarios and the button visuals that move you forward,and story text, and so forth
 scenario = {}
 var scenario = {
   one: {
@@ -65,14 +65,13 @@ var scenario = {
     buttons: [["Try to Get the Ships Attention", "advanceTo(scenario.seven)"],["Stay Hidden in the Dark and Let it Pass On", "advanceTo(scenario.five)"]]
   },
   five: {
-    image: "https://s6.postimg.org/kz5m1cnkh/2919478782_c343d14be6_b.jpg",
-    text: "TO BE CONTINUED...",
-    buttons: [["Follow your Dog Downstairs", "advanceTo(scenario.five)"],["Search the Kitchen for a knife", "advanceTo(scenario.five)"]]
+    image: "https://media.giphy.com/media/sQiwrbxujezny/giphy.gif",
+    text: "After you have drifted past the ship, you move ever forward into the dark oblivion you have become acustomed to now. Wondering about the meaning of it all. ",
+    buttons: [["Eventually Try to Wake Up", "advanceTo(scenario.seven)"],["Swim Forever Into the Abyss", "advanceTo(scenario.six)"]]
   },
   six: {
-    image: "",
-    text: "",
-    buttons: [["Follow your Dog Downstairs", "advanceTo(scenario.five)"],["Search the Kitchen for a knife", "advanceTo(scenario.five)"]]
+    image: "http://pop-verse.com/wp-content/uploads/2015/07/to-be-continued-1024x576.jpg",
+    text: "TO BE CONTINUED...",
   },
   seven: {
     image: "https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/VGiBmTeaeilt7mgjb/game-over-retro-arcade-digital-blue-style-1_nngybqf7pg__F0000.png",
