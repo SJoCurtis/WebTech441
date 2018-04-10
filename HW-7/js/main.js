@@ -61,7 +61,7 @@ var scenario = {
   },
   four: {
     image: "https://www.hardcoregamer.com/wp-content/uploads/2015/08/Soma01.jpg",
-    text: "You swim far into the dark, constantly suprised by how easy it is to breath underwater. This must be a dream...its so strage. You keep swiming into the dark not knowing what else to do and to afraid to do anything but keep moving forward, when suddenly you see lights in front of you. Upon close insepction it seams to be some sort of underwater ship.",
+    text: "You swim far into the dark, constantly suprised by how easy it is to breath underwater. This must be a dream...it's so strange. You keep swiming into the dark not knowing what else to do and too afraid to do anything but keep moving forward, when suddenly you see lights in front of you. Upon close insepction it seams to be some sort of underwater ship.",
     buttons: [["Try to Get the Ships Attention", "advanceTo(scenario.seven)"],["Stay Hidden in the Dark and Let it Pass On", "advanceTo(scenario.five)"]]
   },
   five: {
@@ -75,7 +75,7 @@ var scenario = {
     buttons: [["Follow your Dog Downstairs", "advanceTo(scenario.five)"],["Search the Kitchen for a knife", "advanceTo(scenario.five)"]]
   },
   seven: {
-    image: "http://4.bp.blogspot.com/-BFbRaAvtIJA/Th3cqPVwftI/AAAAAAAAITs/NvrtSx-yPHE/s1600/Pirate+skull+and+crossbones+stencil-1.jpg",
+    image: "https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/VGiBmTeaeilt7mgjb/game-over-retro-arcade-digital-blue-style-1_nngybqf7pg__F0000.png",
     text: "You Die.",
   }
 
