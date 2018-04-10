@@ -1,19 +1,6 @@
-// This is going to ask the player their age, like lots of online games and give a notice of approval or caution, depnding on the age.
+// This is just allows the player to be introduced
 function myFunction() {
-    setTimeout(function(){ promt("What is your age?"); }, 3000);
-    if(myAge>=14){
-      confirm("Play On");
-    }
-    else{
-      alert("Play With Caution");
-    }
-}
-
-if(myAge>=14){
-  confirm("Play On");
-}
-else{
-  alert("Play With Caution");
+    setTimeout(function(){ promt("Welcome to The Game"); }, 3000);
 }
 // This refrences and retrieves the correct ID elements
 var images = document.getElementById("images");
