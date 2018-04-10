@@ -29,10 +29,4 @@ body{
      height: 22px;
      font-size: 14px;
 }
- @media only screen and (min-device-width : 320px) and (max-device-width : 580px) {
-     body {
-         margin-right: 10%;
-         margin-left: 10%;
-    }
-}
  
