@@ -23,7 +23,7 @@ input.onkeypress = function(event) {
 
 
 var changeText = function(words) {
-  text.innerHTML = words.replace("Your dog", lalaland);
+  text.innerHTML = words.replace("Your name", lalaland);
 };
 
 var changeImage = function(img) {
