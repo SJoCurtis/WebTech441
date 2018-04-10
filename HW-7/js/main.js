@@ -12,7 +12,7 @@ var text = document.getElementById("text");
 var buttonBox = document.getElementById('buttonBox');
 var input = document.getElementById('input');
 var lalaland;
-
+//The function resonsible for the switch from event one to event two via hitting enter
 input.onkeypress = function(event) {
   if (event.key == "Enter" || event.keyCode == 13) {
     lalaland =  input.value;
@@ -20,7 +20,6 @@ input.onkeypress = function(event) {
     advanceTo(scenario.two)
   }
 };
-
 
 var changeText = function(words) {
   text.innerHTML = words.replace("Your name", lalaland);
@@ -51,7 +50,7 @@ var scenario = {
     text: "You fell asleep again? Maybe? Someting feels different this time. What do you want your name to be?\n",
   },
   two: {
-    image: "https://s9.postimg.org/9p8m7v1u7/6899639786_d517c4cce3_z.jpg", //house
+    image: "http://68.media.tumblr.com/aeb33ad960d3fdbce1dca3265970272b/tumblr_ohc57koLSp1tgfjkso3_500.gif", //underwater 
     text: "Your dog yanks at the leash. You hear dogs barking and see an old abandoned house. Strangely, the door is wide open. What do you want to do?",
     buttons: [["Turn and run", "advanceTo(scenario.three)"],["Enter The House", "advanceTo(scenario.four)"]]
   },
