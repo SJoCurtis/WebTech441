@@ -6,7 +6,7 @@ function inIframe() {
     }
 }
 
-var colors = ['#16a085', '#27ae60', '#2c3e50', '#f39c12', '#e74c3c', '#9b59b6', '#FB6964', '#342224', "#472E32", "#BDBB99", "#77B1A9", "#73A857"];
+var colors = ['#ffffe6', '#f2ffe6', '#e6ffe6', ' #e6ffff', '#e6ffff', '#e6e6ff', '#ecf9f2', '#fff5e6', "#ffffcc", "#cceeff", "#f2d9e6", "#f0f0f5"];
 var currentQuote = '',
     currentAuthor = '';
 
